@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/* =============================================
+mens
+============================================= */
+main .mens-allitem {
+  width: min(100% - 40px,1080px);
+  margin: 60px auto;
+}
+main .mens-allitem h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+main .mens-allitem > div > ul {
+  display: flex;
+  margin-top: 60px;
+}
+main .mens-allitem > div ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+main .mens-allitem > div ul li {
+  width: calc((100% - 36px)/2);
+}
+main .mens-allitem > div ul li img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+}
+main .mens-allitem > div ul li p {
+  margin-top: 12px;
+  font-size: .9rem;
+}
+main .mens-allitem > div ul li p + p {
+  margin-top: 0;
+}
+main .mens-allitem > div ul li .fashion-detail {
+  cursor: pointer;
+  text-align: center;
+  width: 80%;
+  margin: 8px auto 0;
+  transition: all .3s;
+}
+main .mens-allitem > div ul li .fashion-detail a {
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+  background: #111;
+  color: #fff;
+}
+main .mens-allitem > div ul li .fashion-detail:hover {
+  opacity: .6;
+  scale: 1.1;
+}
+main .mens-allitem > div ul li .fashion-cart {
+  cursor: pointer;
+  text-align: center;
+  width: 80%;
+  margin: 8px auto 0;
+  transition: all .3s;
+}
+main .mens-allitem > div ul li .fashion-cart a {
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+  background: #111;
+  color: #fff;
+}
+main .mens-allitem > div ul li .fashion-cart:hover {
+  opacity: .6;
+  scale: 1.1;
+}
+
+
+
+/* =============================================
+womens
+============================================= */
+main .womens-allitem {
+  width: min(100% - 40px,1080px);
+  margin: 60px auto;
+}
+main .womens-allitem h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+main .womens-allitem > div > ul {
+  display: flex;
+  margin-top: 60px;
+}
+main .womens-allitem > div ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+main .womens-allitem > div ul li {
+  width: calc((100% - 36px)/2);
+}
+main .womens-allitem > div ul li img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
+}
+main .womens-allitem > div ul li p {
+  margin-top: 12px;
+  font-size: .9rem;
+}
+main .womens-allitem > div ul li p + p {
+  margin-top: 0;
+}
+main .womens-allitem > div ul li .fashion-detail {
+  cursor: pointer;
+  text-align: center;
+  width: 80%;
+  margin: 8px auto 0;
+  transition: all .3s;
+}
+main .womens-allitem > div ul li .fashion-detail a {
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+  background: #111;
+  color: #fff;
+}
+main .womens-allitem > div ul li .fashion-detail:hover {
+  opacity: .6;
+  scale: 1.1;
+}
+main .womens-allitem > div ul li .fashion-cart {
+  cursor: pointer;
+  text-align: center;
+  width: 80%;
+  margin: 8px auto 0;
+  transition: all .3s;
+}
+main .womens-allitem > div ul li .fashion-cart a {
+  display: block;
+  padding: 10px 0;
+  width: 100%;
+  background: #111;
+  color: #fff;
+}
+main .womens-allitem > div ul li .fashion-cart:hover {
+  opacity: .6;
+  scale: 1.1;
+}
+
+
+/* =============================================
+media
+============================================= */
+@media screen and (min-width:720px) {
+  main .mens-allitem > div ul li {
+    width: calc((100% - 72px)/3);
+  }
+  main .womens-allitem > div ul li {
+    width: calc((100% - 72px)/3);
+  }
+}

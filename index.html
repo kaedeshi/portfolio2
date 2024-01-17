@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>masion Fashion</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">ホーム</a>
+        </li>
+        <li>
+          <a href="#" id="header-mens">MENS</a>
+        </li>
+        <li>
+          <a href="#" id="header-womens">WOMENS</a>
+        </li>
+        <li>
+          <a href="company.html">会社概要</a>
+        </li>
+        <li>
+          <a href="contact.html">お問い合わせ</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="header-open-mensmenu">
+      <ul>
+        <li>
+          <a href="index.html#pickitem" id="pick-mensitem">ピックアイテム</a>
+        </li>
+        <li>
+          <a href="mens.html">すべてのアイテム</a>
+        </li>
+      </ul>
+    </div>
+    <div id="header-open-womensmenu">
+      <ul>
+        <li>
+          <a href="index.html#pickitem" id="pick-womensitem">ピックアイテム</a>
+        </li>
+        <li>
+          <a href="womens.html">すべてのアイテム</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="hamburger">
+      <div id="border1"></div>
+      <div id="border2"></div>
+    </div>
+    <div id="open-menu">
+      <ul>
+        <li>
+          <a href="index.html">ホーム</a>
+        </li>
+        <li>
+          <a href="#" id="mens-sp">MENS</a>
+        </li>
+        <li>
+          <a href="#" id="womens-sp">WOMENS</a>
+        </li>
+        <li>
+          <a href="company.html">会社概要</a>
+        </li>
+        <li>
+          <a href="contact.html">お問い合わせ</a>
+        </li>
+      </ul>
+    </div>
+    <div id="open-mensmenu">
+      <ul>
+        <li>
+          <a href="index.html#pickitem" id="pick-mensitem-sp">ピックアイテム</a>
+        </li>
+        <li>
+          <a href="mens.html">すべてのアイテム</a>
+        </li>
+      </ul>
+    </div>
+    <div id="open-womensmenu">
+      <ul>
+        <li>
+          <a href="index.html#pickitem" id="pick-womensitem-sp">ピックアイテム</a>
+        </li>
+        <li>
+          <a href="womens.html">すべてのアイテム</a>
+        </li>
+      </ul>
+    </div>
+    <div id="mask"></div>
+
+    <div class="header-logmenu">
+      <div class="header-cart">
+        <a href="cart.html"><img src="cart.png" alt="" width="32" height="32"></a>
+      </div>
+      <div class="header-log">
+        <a href="log.html">ログイン</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="mainvisual">
+      <div>
+        <img src="mainvisual1.jpg" alt="">
+      </div>
+      <div>
+        <h1>masion Fashion</h1>
+      </div>
+      <div>
+        <img src="mainvisual2.jpg" alt="">
+      </div>
+    </section>
+    <section class="news">
+      <h2>新着情報</h2>
+      <dl>
+        <div>
+          <dt>2024.1.3</dt>
+          <dd>新年挨拶</dd>
+        </div>
+        <div>
+          <dt>2023.12.15</dt>
+          <dd>年末年始の発送について</dd>
+        </div>
+        <div>
+          <dt>2023.12.3</dt>
+          <dd>年末セールのご案内</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="new-item" id="pickitem">
+      <div>
+        <h2>ピックアイテム</h2>
+        <ul class="newitem-list">
+          <li><a href="#" class="active" data-id="newitem-mens">MENS</a></li>
+          <li><a href="#" data-id="newitem-womens">WOMENS</a></li>
+        </ul>
+        <div class="newitem-content active" id="newitem-mens">
+          <ul>
+            <li>
+              <div>
+                <a href="#"><img src="men1.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥6,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="men2.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥6,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="men1.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥6,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="men2.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥6,500</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="newitem-content" id="newitem-womens">
+          <ul>
+            <li>
+              <div>
+                <a href="#"><img src="women1.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥5,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="women2.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥5,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="women1.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥5,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="women2.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥5,500</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+       
+        
+      </div>
+    </section>
+
+    <section class="items">
+      <div>
+        <h2>アイテム</h2>
+        <ul class="item-list">
+          <li><a href="#" class="active" data-id="item-mens">MENS</a></li>
+          <li><a href="#" data-id="item-womens">WOMENS</a></li>
+        </ul>
+        <div class="content active" id="item-mens">
+          <ul>
+            <li>
+              <div>
+                <a href="#"><img src="men3.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥6,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="men4.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥6,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="men3.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥6,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="men4.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥6,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="men3.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥6,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="men4.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥6,500</p>
+              </div>
+            </li>
+          </ul>
+          <div class="all-items">
+            <a href="mens.html">一覧を見る</a>
+          </div>
+        </div>
+        <div class="content" id="item-womens">
+          <ul>
+            <li>
+              <div>
+                <a href="#"><img src="women3.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥5,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="women4.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥5,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="women3.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥5,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="women4.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥5,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="women3.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥5,500</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <a href="#"><img src="women4.jpg" alt=""></a>
+                <p>アイテム名</p>
+                <p>¥5,500</p>
+              </div>
+            </li>
+          </ul>
+          <div class="all-items">
+            <a href="womens.html">一覧を見る</a>
+          </div>
+        </div>
+       
+        
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-menu">
+      <h3>MENU</h3>
+      <ul>
+        <li>
+          <a href="index.html">ホーム</a>
+        </li>
+        <li>
+          <a href="mens.html" id="footer-mens">MENS</a>
+        </li>
+        <li>
+          <a href="womens.html" id="footer-womens">WOMENS</a>
+        </li>
+        <li>
+          <a href="company.html">会社概要</a>
+        </li>
+        <li>
+          <a href="contact.html">お問い合わせ</a>
+        </li>
+      </ul>  
+    </div>
+    <div class="footer-log">
+      <a href="log.html">ログイン</a>
+    </div>
+    <div class="footer-sns">
+      <ul>
+        <li>
+          <a href="#"><img src="twitter.png" alt="" width="32" height="32"></a>
+        </li>
+        <li>
+          <a href="#"><img src="instagram.png" alt="" width="32" height="32"></a>
+        </li>
+        <li>
+          <a href="#"><img src="facebook.png" alt="" width="32" height="32"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-copy">
+      <small>&copy;2023 masion fashion</small>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

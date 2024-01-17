@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>masion Fashion</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">ホーム</a>
+        </li>
+        <li>
+          <a href="#" id="header-mens">MENS</a>
+        </li>
+        <li>
+          <a href="#" id="header-womens">WOMENS</a>
+        </li>
+        <li>
+          <a href="company.html">会社概要</a>
+        </li>
+        <li>
+          <a href="contact.html">お問い合わせ</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="header-open-mensmenu">
+      <ul>
+        <li>
+          <a href="index.html#pickitem" id="pick-mensitem">ピックアイテム</a>
+        </li>
+        <li>
+          <a href="mens.html">すべてのアイテム</a>
+        </li>
+      </ul>
+    </div>
+    <div id="header-open-womensmenu">
+      <ul>
+        <li>
+          <a href="index.html#pickitem" id="pick-womensitem">ピックアイテム</a>
+        </li>
+        <li>
+          <a href="womens.html">すべてのアイテム</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="hamburger">
+      <div id="border1"></div>
+      <div id="border2"></div>
+    </div>
+    <div id="open-menu">
+      <ul>
+        <li>
+          <a href="index.html">ホーム</a>
+        </li>
+        <li>
+          <a href="#" id="mens-sp">MENS</a>
+        </li>
+        <li>
+          <a href="#" id="womens-sp">WOMENS</a>
+        </li>
+        <li>
+          <a href="company.html">会社概要</a>
+        </li>
+        <li>
+          <a href="contact.html">お問い合わせ</a>
+        </li>
+      </ul>
+    </div>
+    <div id="open-mensmenu">
+      <ul>
+        <li>
+          <a href="index.html#pickitem" id="pick-mensitem-sp">ピックアイテム</a>
+        </li>
+        <li>
+          <a href="mens.html">すべてのアイテム</a>
+        </li>
+      </ul>
+    </div>
+    <div id="open-womensmenu">
+      <ul>
+        <li>
+          <a href="index.html#pickitem" id="pick-womensitem-sp">ピックアイテム</a>
+        </li>
+        <li>
+          <a href="womens.html">すべてのアイテム</a>
+        </li>
+      </ul>
+    </div>
+    <div id="mask"></div>
+
+    <div class="header-logmenu">
+      <div class="header-cart">
+        <a href="cart.html"><img src="cart.png" alt="" width="32" height="32"></a>
+      </div>
+      <div class="header-log">
+        <a href="log.html">ログイン</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-form">
+      <h2>お問い合わせ</h2>
+      <div>
+        <input type="text" name="name" placeholder="お名前">
+        <input type="email" name="email" placeholder="メールアドレス">
+        <input type="email" name="confirmed-email" placeholder="確認用メールアドレス">
+        <select name="reason">
+          <option selected>-----　お問い合わせ種別を選択してください　-----</option>
+          <option>商品が届かない</option>
+          <option>商品を返品したい</option>
+          <option>間違って注文した</option>
+          <option>登録内容を変更したい</option>
+          <option>その他</option>
+        </select>
+        <textarea name="content" cols="30" rows="10" placeholder="お問い合わせ内容 "></textarea>
+        <div class="button" id="contact-button">送信</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-menu">
+      <h3>MENU</h3>
+      <ul>
+        <li>
+          <a href="index.html">ホーム</a>
+        </li>
+        <li>
+          <a href="mens.html">MENS</a>
+        </li>
+        <li>
+          <a href="womens.html">WOMENS</a>
+        </li>
+        <li>
+          <a href="company.html">会社概要</a>
+        </li>
+        <li>
+          <a href="contact.html">お問い合わせ</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-log">
+      <a href="log.html">ログイン</a>
+    </div>
+    <div class="footer-sns">
+      <ul>
+        <li>
+          <a href="#"><img src="twitter.png" alt="" width="32" height="32"></a>
+        </li>
+        <li>
+          <a href="#"><img src="instagram.png" alt="" width="32" height="32"></a>
+        </li>
+        <li>
+          <a href="#"><img src="facebook.png" alt="" width="32" height="32"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-copy">
+      <small>&copy;2023 masion fashion</small>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
